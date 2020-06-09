@@ -1,0 +1,31 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linnrobin/scraping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linnrobin/scraping/issues"
+  },
+  "homepage": "https://github.com/linnrobin/scraping#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "phantom": "^6.3.0",
+    "phantomjs": "^2.1.7",
+    "puppeteer": "^3.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "scraperjs": "^1.2.0"
+  }
+}
