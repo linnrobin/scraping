@@ -2,7 +2,9 @@
 
 const Hapi = require("@hapi/hapi");
 
-const scrapSteam = require("./scraper");
+// const scrapSteam = require("./scraper");
+
+const scrapSteam = require("./scraperShopee");
 
 const init = async () => {
   const server = Hapi.server({
